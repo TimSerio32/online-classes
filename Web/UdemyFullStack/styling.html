@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic Styling</title>
+		<style type="text/css">
+			body {
+				font-family: Arial, sans-serif;
+				font-size: 13px;
+			}
+
+			h1 {
+				color: red;
+				/*visibility: hidden;*/
+				/*display: none;*/
+				/* block means whatever comes after it will go on a seperate line*/
+				/* whatever is inline displays on same line (h1, p)*/
+			}
+
+			.text-center {
+				text-align: center;
+			}
+
+			#box1 {
+				background: black;
+				color: white;
+				width: 200px;
+				padding-top: 20px;
+				padding-right: 20px;
+				padding-bottom: 20px;
+				padding-left: 20px;
+				/* Margin is for the spacing outside of the box*/
+				margin-top: 20px;
+				margin-right: 20px;
+				margin-bottom: 20px;
+				margin-left: 20px;
+				border-size: 3px;
+				border-color: red;
+				border-style: solid;
+				float: left;
+			}
+
+			#box2 {
+				background: blue;
+				color: white;
+				width: 200px;
+				/*padding: top right bottom left*/
+				/*padding: top and bottom sides*/
+				padding: 20px;
+				/* Margin is for the spacing outside of the box*/
+				margin: 20px;
+				border: 3px green solid;
+				float: right;
+			}
+
+			.clr {
+				clear: both;
+			}
+
+			ul.my-list {
+				list-style: none;
+				padding: 0;
+				/* em means 2.2 * the font size*/
+				/* px are absolute*/
+				line-height: 2.2em;
+			}
+
+			ul.my-list li {
+				border-bottom: 1px dotted #666;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="text-center">
+			<h1>Welcome</h1>
+			<p>This is a paragraph.</p>
+			<p>This is another paragraph.</p>
+		</div>
+
+		<div id="box1">
+			This is Box 1.
+		</div>
+
+		<div id="box2">
+			This is Box 2.
+		</div>
+
+		<div class="clr"></div>
+
+		<div>Hello</div>
+
+		<ul class="my-list">
+			<li>List Item</li>
+			<li>List Item</li>
+			<li>List Item</li>
+			<li>List Item</li>
+			<li>List Item</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "891319266873",
+    "firebase_url": "https://simpsongrades-92c94.firebaseio.com",
+    "project_id": "simpsongrades-92c94",
+    "storage_bucket": "simpsongrades-92c94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891319266873:android:41ec9f31673fa1b9",
+        "android_client_info": {
+          "package_name": "serio.tim.android.com.simpsongrades"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891319266873-nfkda8o0fna8n15lh99c5pn2g5bprtkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "serio.tim.android.com.simpsongrades",
+            "certificate_hash": "40d20cbccda56006d697e823c0d09375739cfb83"
+          }
+        },
+        {
+          "client_id": "891319266873-rdecjdv43l5nko5ghfsvmtji4aa5asdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHpGeaXvsDn7hFJyHU3IOjy3nVaMIidvg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891319266873-rdecjdv43l5nko5ghfsvmtji4aa5asdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

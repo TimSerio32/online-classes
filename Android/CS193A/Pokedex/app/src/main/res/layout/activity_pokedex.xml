@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/frag_pokedex"
+        android:name="serio.tim.android.com.pokedex.PokedexFragment"
+        tools:layout="@layout/fragment_pokedex"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

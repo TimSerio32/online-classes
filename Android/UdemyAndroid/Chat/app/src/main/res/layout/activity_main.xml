@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="serio.tim.android.com.chat.MainActivity">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:gravity="end">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_account_box_black_24dp"
+            android:id="@+id/userIcon"
+            android:foregroundGravity="center"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameText"
+            android:layout_toRightOf="@+id/userIcon"
+            android:layout_alignTop="@+id/userIcon"
+            android:layout_alignBottom="@+id/userIcon"
+            android:gravity="center_vertical"
+            tools:text="Username"
+            android:layout_weight="0"/>
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Sign In" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:id="@+id/logoutBtn"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/footer">
+        
+        <ImageButton
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:id="@+id/imageBtn"
+            android:background="@android:drawable/ic_menu_gallery"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/messageText"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:inputType="textShortMessage|textAutoCorrect"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/sendBtn"
+            android:layout_gravity="bottom"/>
+        
+    </LinearLayout>
+
+</RelativeLayout>

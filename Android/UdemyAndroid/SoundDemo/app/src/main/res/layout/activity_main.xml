@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="serio.tim.android.com.sounddemo.MainActivity">
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:onClick="pauseAudio"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pauseButton"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_toLeftOf="@+id/pauseButton"
+        android:layout_toStartOf="@+id/pauseButton"
+        android:onClick="playAudio"
+        android:text="Play" />
+
+    <SeekBar
+        android:id="@+id/seekr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/playButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/seekr"
+        android:layout_alignLeft="@+id/seekr"
+        android:layout_alignRight="@+id/seekr"
+        android:layout_alignStart="@+id/seekr"
+        android:layout_below="@+id/pauseButton"
+        android:layout_marginTop="25dp" />
+
+</RelativeLayout>

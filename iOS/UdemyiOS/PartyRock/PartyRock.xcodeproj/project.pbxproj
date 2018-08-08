@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220CE0A01F5DEEF50029E237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220CE09F1F5DEEF50029E237 /* AppDelegate.swift */; };
+		220CE0A21F5DEEF50029E237 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220CE0A11F5DEEF50029E237 /* MainViewController.swift */; };
+		220CE0A51F5DEEF50029E237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220CE0A31F5DEEF50029E237 /* Main.storyboard */; };
+		220CE0A71F5DEEF50029E237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220CE0A61F5DEEF50029E237 /* Assets.xcassets */; };
+		220CE0AA1F5DEEF50029E237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220CE0A81F5DEEF50029E237 /* LaunchScreen.storyboard */; };
+		220CE0B51F5DF4710029E237 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 220CE0B41F5DF4710029E237 /* still time.ttf */; };
+		220CE0B81F5DF5D50029E237 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220CE0B71F5DF5D50029E237 /* VideoViewController.swift */; };
+		220CE0BA1F5E006E0029E237 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220CE0B91F5E006E0029E237 /* PartyCell.swift */; };
+		220CE0BC1F5E18750029E237 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220CE0BB1F5E18750029E237 /* PartyRock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		220CE09C1F5DEEF50029E237 /* PartyRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		220CE09F1F5DEEF50029E237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		220CE0A11F5DEEF50029E237 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		220CE0A41F5DEEF50029E237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		220CE0A61F5DEEF50029E237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		220CE0A91F5DEEF50029E237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		220CE0AB1F5DEEF60029E237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220CE0B41F5DF4710029E237 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
+		220CE0B71F5DF5D50029E237 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		220CE0B91F5E006E0029E237 /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		220CE0BB1F5E18750029E237 /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220CE0991F5DEEF50029E237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220CE0931F5DEEF50029E237 = {
+			isa = PBXGroup;
+			children = (
+				220CE09E1F5DEEF50029E237 /* PartyRock */,
+				220CE09D1F5DEEF50029E237 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		220CE09D1F5DEEF50029E237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220CE09C1F5DEEF50029E237 /* PartyRock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220CE09E1F5DEEF50029E237 /* PartyRock */ = {
+			isa = PBXGroup;
+			children = (
+				220CE0B61F5DF4770029E237 /* Files */,
+				220CE0B21F5DEF660029E237 /* Model */,
+				220CE0B31F5DEF6E0029E237 /* View */,
+				220CE0B11F5DEF5D0029E237 /* Controller */,
+				220CE09F1F5DEEF50029E237 /* AppDelegate.swift */,
+				220CE0A81F5DEEF50029E237 /* LaunchScreen.storyboard */,
+				220CE0A31F5DEEF50029E237 /* Main.storyboard */,
+				220CE0A61F5DEEF50029E237 /* Assets.xcassets */,
+				220CE0AB1F5DEEF60029E237 /* Info.plist */,
+			);
+			path = PartyRock;
+			sourceTree = "<group>";
+		};
+		220CE0B11F5DEF5D0029E237 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				220CE0A11F5DEEF50029E237 /* MainViewController.swift */,
+				220CE0B71F5DF5D50029E237 /* VideoViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		220CE0B21F5DEF660029E237 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				220CE0BB1F5E18750029E237 /* PartyRock.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		220CE0B31F5DEF6E0029E237 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				220CE0B91F5E006E0029E237 /* PartyCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		220CE0B61F5DF4770029E237 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				220CE0B41F5DF4710029E237 /* still time.ttf */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220CE09B1F5DEEF50029E237 /* PartyRock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220CE0AE1F5DEEF60029E237 /* Build configuration list for PBXNativeTarget "PartyRock" */;
+			buildPhases = (
+				220CE0981F5DEEF50029E237 /* Sources */,
+				220CE0991F5DEEF50029E237 /* Frameworks */,
+				220CE09A1F5DEEF50029E237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PartyRock;
+			productName = PartyRock;
+			productReference = 220CE09C1F5DEEF50029E237 /* PartyRock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220CE0941F5DEEF50029E237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tim Serio";
+				TargetAttributes = {
+					220CE09B1F5DEEF50029E237 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 29B6QCD9N8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 220CE0971F5DEEF50029E237 /* Build configuration list for PBXProject "PartyRock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 220CE0931F5DEEF50029E237;
+			productRefGroup = 220CE09D1F5DEEF50029E237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220CE09B1F5DEEF50029E237 /* PartyRock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220CE09A1F5DEEF50029E237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220CE0AA1F5DEEF50029E237 /* LaunchScreen.storyboard in Resources */,
+				220CE0B51F5DF4710029E237 /* still time.ttf in Resources */,
+				220CE0A71F5DEEF50029E237 /* Assets.xcassets in Resources */,
+				220CE0A51F5DEEF50029E237 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220CE0981F5DEEF50029E237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220CE0A21F5DEEF50029E237 /* MainViewController.swift in Sources */,
+				220CE0A01F5DEEF50029E237 /* AppDelegate.swift in Sources */,
+				220CE0BC1F5E18750029E237 /* PartyRock.swift in Sources */,
+				220CE0BA1F5E006E0029E237 /* PartyCell.swift in Sources */,
+				220CE0B81F5DF5D50029E237 /* VideoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		220CE0A31F5DEEF50029E237 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220CE0A41F5DEEF50029E237 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		220CE0A81F5DEEF50029E237 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220CE0A91F5DEEF50029E237 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		220CE0AC1F5DEEF60029E237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		220CE0AD1F5DEEF60029E237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		220CE0AF1F5DEEF60029E237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29B6QCD9N8;
+				INFOPLIST_FILE = PartyRock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tim.Serio.PartyRock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		220CE0B01F5DEEF60029E237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29B6QCD9N8;
+				INFOPLIST_FILE = PartyRock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tim.Serio.PartyRock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220CE0971F5DEEF50029E237 /* Build configuration list for PBXProject "PartyRock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220CE0AC1F5DEEF60029E237 /* Debug */,
+				220CE0AD1F5DEEF60029E237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220CE0AE1F5DEEF60029E237 /* Build configuration list for PBXNativeTarget "PartyRock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220CE0AF1F5DEEF60029E237 /* Debug */,
+				220CE0B01F5DEEF60029E237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 220CE0941F5DEEF50029E237 /* Project object */;
+}

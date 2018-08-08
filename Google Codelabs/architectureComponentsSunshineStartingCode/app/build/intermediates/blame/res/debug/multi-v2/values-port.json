@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Tim/CSC/CS193A/architectureComponentsSunshineStartingCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/Tim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/75de4b60f9bf15915f45c4ba2cfe99a5/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                },
+                {
+                    "source": "/Users/Tim/CSC/CS193A/architectureComponentsSunshineStartingCode/app/src/main/res/values-port/bools.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "692",
+                        "endColumns": "45",
+                        "endOffsets": "733"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "111",
+                        "endColumns": "45",
+                        "endOffsets": "152"
+                    }
+                }
+            ]
+        }
+    ]
+}

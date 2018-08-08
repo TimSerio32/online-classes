@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TeaTimer</string>
+    <string name="title_activity_black_timer">BlackTimerActivity</string>
+</resources>

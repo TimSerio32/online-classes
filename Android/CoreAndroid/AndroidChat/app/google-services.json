@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "391763393098",
+    "firebase_url": "https://android-chat-c3306.firebaseio.com",
+    "project_id": "android-chat-c3306",
+    "storage_bucket": "android-chat-c3306.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391763393098:android:af0009a4b35a3136",
+        "android_client_info": {
+          "package_name": "serio.tim.android.com.androidchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391763393098-9n4kdlf1s9aqcqrditjelndhuj0av3rb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDse67znFCii5uo6Zzt_Q0w9xV2_w8yFg4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

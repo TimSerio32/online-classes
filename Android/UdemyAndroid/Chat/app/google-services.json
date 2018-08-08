@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "616096586669",
+    "firebase_url": "https://zerotoapp-2b193.firebaseio.com",
+    "project_id": "zerotoapp-2b193",
+    "storage_bucket": "zerotoapp-2b193.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616096586669:android:22a092d251b1e248",
+        "android_client_info": {
+          "package_name": "serio.tim.android.com.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616096586669-2aohg0hf7n4eid83onvvfcaueq8l4m72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN09XkWkfaI9zxb_6tcQ5uP6EKdjk-YMA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

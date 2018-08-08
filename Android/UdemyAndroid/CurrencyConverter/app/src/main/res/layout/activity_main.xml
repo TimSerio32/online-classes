@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="serio.tim.android.com.currencyconverter.MainActivity">
+
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@color/textFieldColor"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter amount"
+        android:inputType="number"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:shadowColor="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorHint="@color/colorAccent" />
+
+    <RadioGroup
+        android:id="@+id/inputRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center_horizontal"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/amountEditText"
+        android:layout_toLeftOf="@+id/convertBtn"
+        android:layout_toStartOf="@+id/convertBtn">
+
+        <RadioButton
+            android:id="@+id/euro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/radioBtnColor"
+            android:text="Euro"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/radioBtnColor"
+            android:text="Peso"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/pound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/radioBtnColor"
+            android:text="Pound"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/real"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/radioBtnColor"
+            android:text="Real"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/rupee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/radioBtnColor"
+            android:text="Rupee"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/dollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/radioBtnColor"
+            android:checked="true"
+            android:text="US Dollar"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/yuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inputRadioGroup"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:buttonTint="@color/radioBtnColor"
+            android:text="Yuan"
+            android:textColor="@color/colorPrimary" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/toRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/inputRadioGroup"
+        android:layout_toRightOf="@+id/convertBtn"
+        android:layout_toEndOf="@+id/convertBtn">
+
+        <RadioButton
+            android:id="@+id/toEuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/radioBtnColor"
+            android:layout_weight="1"
+            android:text="Euro"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/toPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/radioBtnColor"
+            android:layout_weight="1"
+            android:text="Peso"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/toPound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/radioBtnColor"
+            android:layout_weight="1"
+            android:text="Pound"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/toReal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/radioBtnColor"
+            android:checked="true"
+            android:text="Real"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/toRupee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/radioBtnColor"
+            android:text="Rupee"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/toDollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/radioBtnColor"
+            android:shadowColor="#FEFEDF"
+            android:text="US Dollar"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/toYuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/radioBtnColor"
+            android:text="Yuan"
+            android:textColor="@color/colorPrimary" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toRadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:text="To:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/convertedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/convertBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@color/radioBtnColor"
+        android:onClick="convertPressed"
+        android:text="Convert"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/convertBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="="
+        android:textColor="@color/colorPrimary"
+        android:textSize="35sp" />
+
+</RelativeLayout>

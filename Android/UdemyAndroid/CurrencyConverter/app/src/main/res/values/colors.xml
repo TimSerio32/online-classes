@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#565F54</color>
+    <color name="colorPrimaryDark">#565F54</color>
+    <color name="colorAccent">#FEFEDF</color>
+    <color name="radioBtnColor">#2c906b</color>
+    <color name="textFieldColor">#9b2c906b</color>
+</resources>

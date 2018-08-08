@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "220983642232",
+    "firebase_url": "https://chatapp-fd6b5.firebaseio.com",
+    "project_id": "chatapp-fd6b5",
+    "storage_bucket": "chatapp-fd6b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220983642232:android:cfa55abaa33867f7",
+        "android_client_info": {
+          "package_name": "serio.tim.android.com.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220983642232-1vnm0pk0l8ttkic32kdm991u8mnmvg4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgmQr0LzorC8aZfm3_OHGXj0B_DacgabE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

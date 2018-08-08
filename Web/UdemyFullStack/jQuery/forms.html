@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery & Forms</title>
+		<!--For production don't use CDN, download jQuery-->
+		<script
+  		src="https://code.jquery.com/jquery-3.2.1.js"
+  		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  		crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<form id="myForm">
+			<div>
+				<label>Name: </label><br>
+				<input type="text">
+			</div>
+			<div>
+				<label>Email: </label><br>
+				<input type="text">
+			</div>
+			<div>
+				<label>Location: </label><br>
+				<input type="text" value="New York">
+			</div>
+			<div>
+				<label>Category: </label><br>
+				<select>
+					<option value="1">Category 1</option>
+					<option value="2">Category 2</option>
+					<option value="3">Category 3</option>
+				</select>
+			</div>
+			<input type="submit" value="Submit">
+		</form>
+		<br><br>
+		<div id="output"></div>
+
+		<script type="text/javascript">
+			// FOCUS & BLUR EVENTS
+			$(document).ready(function() {
+				$('#myForm input').focus(function() {
+					$(this).css('background', 'pink');
+					$(this).blur(function() {
+						$(this).css('background', 'none');
+					});
+				});
+
+				// CHANGE EVENTS
+				$('#myForm select').change(function() {
+					var cat = "";
+
+					// jQuery each loop
+					$('select option:selected').each(function() {
+						cat += $(this).text() + " ";
+					});
+					$('#output').text(cat);
+				});	
+
+				// SELECT EVENTS (Highlighting text in textfield triggers this event)
+				$(':input').select(function() {
+					$('#output').text('Something was selected.').show();
+				});
+
+				// SUBMIT EVENT
+				$('#myForm').submit(function(e) {
+					e.preventDefault();
+					$('#output').text('Form Submitted.');
+				});
+
+				// KEYUP AND KEYDOWN Events
+				$('#myForm input').keydown(function() {
+					$('#output').text('You are typing...');
+					$(this).keyup(function() {
+						$('#output').text('');
+					});
+				});
+
+			});
+		</script>
+	</body>
+</html>

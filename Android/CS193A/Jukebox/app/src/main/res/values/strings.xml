@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Jukebox</string>
+
+    <string-array name="song_titles">
+        <item>Fireplace</item>
+        <item>Loon</item>
+        <item>Rain</item>
+        <item>Stream</item>
+        <item>Thunder</item>
+    </string-array>
+</resources>
